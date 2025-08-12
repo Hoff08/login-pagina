@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -584,12 +583,12 @@
                     window.location.href = 'https://hoff08.github.io/barber-panel/';
                 } else if (email === 'dono@gmail.com' && password === '123') {
                     alert('Login de administrador bem-sucedido! Redirecionando...');
-                    window.location.href = 'https://hoff08.github.io/admzao/';
+                    window.location.href = 'https://hoff08.github.io/paineladm/';
                 } else {
                     alert('Email ou senha inválidos.');
                     // Resetar o botão em caso de falha
                     submitBtn.textContent = 'Entrar';
-                    submitBtn.classList.remove('btn-loading');
+                    submitBtn.classList.remov   e('btn-loading');
                     submitBtn.disabled = false;
                 }
             }, 500); // Meio segundo de delay para simular processamento
